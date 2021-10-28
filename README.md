@@ -69,6 +69,13 @@ Use new user command and add the asking credentials. You have to enter user name
 Now, all set at the server side. Let’s see how to configure client side.
 
 # Connect to HTTP Injector
+
+##Webmin Admin Access
+You can access your VPN server using Webmin IP address that was given by the server information. login in using administrator user we initially created.
+```bash
+ http://IPVPS:10000
+
+```
 ## Authors
 
 - [@kalehege](https://github.com/kalehege)
