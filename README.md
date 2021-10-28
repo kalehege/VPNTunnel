@@ -1,4 +1,3 @@
-# VPNTunnel
 ||Google||
 
  sudo -s
@@ -13,9 +12,17 @@ exit
 
 ||Setup Vpn||
 
-su "username"
+su "username" (Google Only)
 
-sudo -s
+sudo -s (Google Only)
+
+cd ..
+
+cd home
+
+mkdir vpn
+
+cd vpn
 
 wget https://github.com/kalehege/VPNTunnel/blob/main/ubi18.sh
 
@@ -30,3 +37,4 @@ sudo -s
 menu (and create new user)
 
 http://IPVPS:10000 (root login)
+
