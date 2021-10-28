@@ -71,7 +71,7 @@ Now, all set at the server side. Let’s see how to configure client side.
 # Connect to HTTP Injector
 ## Authors
 
-- [@katherinepeterson](https://github.com/kalehege)
+- [@kalehege](https://github.com/kalehege)
 
 
 ## Badges
