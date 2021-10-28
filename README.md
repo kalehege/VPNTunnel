@@ -50,7 +50,7 @@ Go to home path and create directory
 
 Now, we finished the adding a new user and gave the root access. Download the VPN server script using this command.
 ```bash
- wget https://github.com/kalehege/VPNTunnel/blob/main/ubi18.sh
+ wget https://github.com/kalehege/VPNTunnel/raw/main/ubi18.sh
 ```
 Use this line for make sure the script is executable.
 ```bash
