@@ -17,7 +17,7 @@ su "username"
 
 sudo -s
 
-wget http://evira.us/ubi18.sh
+wget https://github.com/kalehege/VPNTunnel/blob/main/ubi18.sh
 
 chmod +x ubi18.sh
 
