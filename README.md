@@ -85,6 +85,8 @@ You can access your VPN server using Webmin IP address that was given by the ser
  http://IPVPS:10000
 
 ```
+## Go to dashboard and click update and install. and wait for end session
+
 ## Authors
 
 - [@kalehege](https://github.com/kalehege)
