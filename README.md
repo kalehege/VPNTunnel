@@ -35,11 +35,19 @@ Use this command to get root access and enter the user password.
 ```
 ## Package Installation
 
-Go to home path and create directory
+Go to home path and create directory  
 
 ```bash
  sudo -s
 ```
+Go to home path and create directory 
+```bash
+ cd..
+ cd home
+ mkdir vpn
+ cd vpn
+```
+
 Now, we finished the adding a new user and gave the root access. Download the VPN server script using this command.
 ```bash
  wget https://github.com/kalehege/VPNTunnel/blob/main/ubi18.sh
