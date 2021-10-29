@@ -61,13 +61,18 @@ Now execute the script using this command. This takes some time to get ready you
  ./ubi18.sh
 ```
 ### Installation Complete
+##  Webmin Admin Access
+
+You can access your VPN server using Webmin IP address that was given by the server information. login in using administrator user we initially created.
+```bash
+ http://IPVPS:10000
+
+```
+## Go to dashboard and click update and install. and wait for end session
 
 ## Add a New VPN User
 Before adding a user, reboot the VPN server using this command. It may cause to disconnection of the terminal window for a few moments. Try to connect it again.
 
-```bash
- reboot
-```
 You can type “menu” to get all VPN server commands.
 ```bash
  menu
@@ -78,14 +83,6 @@ Now, all set at the server side. Let’s see how to configure client side.
 
 # Connect to HTTP Injector
 
-##  Webmin Admin Access
-
-You can access your VPN server using Webmin IP address that was given by the server information. login in using administrator user we initially created.
-```bash
- http://IPVPS:10000
-
-```
-## Go to dashboard and click update and install. and wait for end session
 
 ## Authors
 
