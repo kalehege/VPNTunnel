@@ -42,7 +42,7 @@ Go to home path and create directory
 ```
 Go to home path and create directory 
 ```bash
- cd..
+ cd  ..
  cd home
  mkdir vpn
  cd vpn
