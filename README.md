@@ -6,6 +6,15 @@ its Ezzzzz
 
 ## Google User only Installation
 
+# Setup VPC Network
+You have to get a static IP address for the instance. In the main menu, select “external IP address” under “VPC network”. Change the IP type to “Static”. The Static IP address is not change during restart the server.
+
+Now, you have to set a firewall rule to allows VPN server ports. In the VM instances page, click “setup firewall rule” at the bottom of the page. Then, click “crate firewall rule” button at the top of the page. Enter a name for the rule and change the target to “all instance in the network”. If you want you can choose a specific target. Enter this source IP range to allow all ranges of IP addresses.
+
+IP  Range: 0.0.0.0/0
+
+Under protocols and ports, select allow all to open all port of the VPS. After all, click “create” button at the bottom. Now, VPS setup is over. Let’s see how to create a VPN server.
+
 Click “SSH” button of the VM instance to get terminal window. To get root access, enter the command.
 ```bash
 sudo -s
