@@ -42,6 +42,11 @@ Use this command to get root access and enter the user password.
 ```bash
  sudo -s
 ```
+change root password
+
+```bash
+sudo passwd
+```
 ## Package Installation
 
 Go to home path and create directory  
